@@ -1,0 +1,9 @@
+service: pocJobsSteps
+
+provider:
+  name: aws
+  runtime: python2.7
+
+functions:
+  pythonHello:
+    handler: handlers/handler.hello
